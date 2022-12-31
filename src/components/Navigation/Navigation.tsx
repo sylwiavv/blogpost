@@ -11,6 +11,7 @@ export const StyledLink = styled(NavLink)`
 export const StyledNavigation = styled.nav`
   display: flex;
   grid-gap: 24px;
+  margin-bottom: 48px;
 `;
 
 const Navigation = () => {

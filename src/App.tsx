@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
 import { Route, Routes } from 'react-router-dom';
@@ -25,7 +26,6 @@ function App() {
           <Route path='/create-post' element={<CreatePost />} />
         </Routes>
       </MainTemplate>
-
     </div>
   );
 }
